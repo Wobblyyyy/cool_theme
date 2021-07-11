@@ -1,0 +1,31 @@
+<idea-plugin>
+    <id>me.wobblyyyy.cool_theme</id>
+    <name>cool_theme</name>
+    <version>1.0</version>
+    <vendor email="wobblyyyy@gmail.com" url="https://github.com/Wobblyyyy">wobblyyyy</vendor>
+
+    <description><![CDATA[
+    Very awesome and super cool theme. I have to make this longer somehow.
+    ]]></description>
+
+    <change-notes><![CDATA[
+  I have literally no change notes. None at all.
+    ]]>
+    </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="6b69b227-f106-4ba1-895b-9d9c52f4f1a6" path="/cool_theme.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

@@ -1,0 +1,19 @@
+{
+  "name": "cool_theme",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/cool_theme.xml",
+
+  "colors": {
+    "basic_background": "#000000",
+    "green_text": "#33ff33"
+  },
+
+  "ui": {
+    "*": {
+      "background": "basic_background"
+    },
+    "TextArea.background": "basic_background",
+    "EditorPane.background": "basic_background"
+  }
+}
